@@ -1,0 +1,50 @@
+.sale1_bg {
+  background: url("../Assets/OtherSections/mainBg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  /* z-index: -1; */
+}
+
+.sale1_bg::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+.sale1_inner {
+  /* z-index: 2 !important; */
+  color: white;
+}
+
+/* testimonials */
+.dots-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #d20202;
+  margin: 0px 5px;
+  color: white;
+}
+
+.dot.slick-active {
+  background-color: #f00; /* Customize the active dot color */
+}

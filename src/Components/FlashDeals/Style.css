@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+.flash_deal {
+  font-family: "Catamaran";
+}
+.hover_img {
+  transition: all ease-in-out 0.5s;
+}
+.hover_img:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}

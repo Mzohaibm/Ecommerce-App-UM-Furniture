@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+.best_selling {
+  font-family: "Catamaran";
+}
+.product_image {
+  transition: all ease-in-out 0.7s;
+}
+.product_image:hover {
+  transition: all ease-in-out 0.7s;
+}
+.hover_img {
+  transition: all ease-in-out 0.7s;
+  transform: scale(0.9);
+}
+.hover_btn {
+  transition: all ease-in-out 0.7s;
+  transform: translateY(-50px);
+}

@@ -1,0 +1,42 @@
+/* Custom styles for SweetAlert */
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+.new_products {
+  font-family: "Catamaran";
+}
+.swal-modal {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .swal-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .swal-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .swal-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .swal-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media(max-width:768px) {
+    .swal-modal{
+        width: 70% !important;
+    }
+  }

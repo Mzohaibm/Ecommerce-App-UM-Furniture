@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Ysabeau+Infant&display=swap");
+
+.main_head {
+  font-family: "Ysabeau Infant", sans-serif;
+}
+.cartCount {
+  position: absolute;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right: 10;
+}
+.cart {
+  position: relative;
+}

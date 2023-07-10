@@ -1,0 +1,16 @@
+{
+  "short_name": "Um Furniture",
+  "name": "Um Furniture - High-Quality Furniture for Your Home",
+  "icons": [
+    {
+      "src": "NavBar_logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Discover a wide range of high-quality furniture for your home at Um Furniture. We offer stylish and comfortable bed chairs, functional and space-saving cabinets, elegant tables, and more. Transform your living spaces with our premium furniture collection. Shop now and create your dream home!"
+}
